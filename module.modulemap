@@ -1,0 +1,5 @@
+module Bsd [system] {
+        header "shim.h"
+        link "bsd"
+        export *
+}
